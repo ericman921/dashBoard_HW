@@ -1,0 +1,28 @@
+#app{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          justify-items: center;
+          align-content: space-between;
+          padding:50px;
+}
+
+.sections{
+          background-color:darkgrey;
+          padding: 20px;
+}
+
+#visitors{
+          grid-column-start: 2;
+          grid-column-end: 4;
+          grid-row-start: 2;
+}
+#sidebar{
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 1;
+          grid-row-end: 4;
+}
+#inside-div{
+          background-color: grey;
+}
